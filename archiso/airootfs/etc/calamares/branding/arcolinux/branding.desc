@@ -1,0 +1,23 @@
+---
+componentName:  arcolinux
+
+strings:
+    productName:         ArcoLinux-GzR
+    shortProductName:    ArcoLinux-GzR
+    version:             1.0
+    shortVersion:        1.0
+    versionedName:       ArcoLinux-GzR
+    shortVersionedName:  ArcoLinux-GzR
+    bootloaderEntryName: ArcoLinux-GzR
+
+images:
+    productLogo:         "squid.png"
+    productIcon:         "logo.png"
+    productWelcome:      "calamares-0.png"
+
+slideshow:               "show.qml"
+
+style:
+   sidebarBackground:    "#000000"
+   sidebarText:          "#FAFAFA"
+   sidebarTextSelect:    "#000000"

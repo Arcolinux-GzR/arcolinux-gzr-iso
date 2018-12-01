@@ -35,8 +35,8 @@ do
         ;;
      "Get Android SDK")
         echo "Downloading and installing Android-SDK.";
-        yaourt -S android-sdk --noconfirm
-        yaourt -S android-sdk-platform-tools --noconfirm
+        yay -S android-sdk --noconfirm
+        yay -S android-sdk-platform-tools --noconfirm
         clear 
         break;
         ;;

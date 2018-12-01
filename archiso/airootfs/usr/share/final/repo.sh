@@ -17,7 +17,7 @@ echo "Android build environment finalizer. Internet connection required! Make su
 while true
 do 
   PS3='Select options in order:'
-  options=("Create Needed Symlinks" "Get Android SDK" "Set Global Name" "Set Global Email" "Quit")
+  options=("Create Needed Symlinks" "Get Android SDK" "Set Global Name" "Set Global Email" "Remove Desktop Icon" "Quit")
   select opt in "${options[@]}"
 do
     case $opt in
@@ -66,6 +66,12 @@ do
         clear 
         break;
         ;;
+     "Remove Desktop Icon")
+        echo "Removing desktop icon.";
+        rm ~/Desktop/repo.desktop
+        clear 
+        break;
+        ;;        
      "Quit")
         exit 
         ;;

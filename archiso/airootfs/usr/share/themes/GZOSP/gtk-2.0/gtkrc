@@ -1,0 +1,43 @@
+# Based on Bridge by ScionicSpectre
+# vim:set ts=2 sw=2 sts=2 ai et:
+#
+# This is the GTK+ 2 version of Adwaita. It's whole purpose is to look as the
+# GTK+ 3 version as much as possible until GTK+ 2 dies completely.
+#
+# Note: comments for explaining styles are on the bottom of each file beside the
+# widget matches.
+
+# Declare the colours used throughout the theme.
+# There shouldn't be any fiddling with them in the theme files themselves in
+# order to not mess up the dark theme.
+
+# Text/base
+gtk-color-scheme = "text_color:#DBDBDB\nbase_color:#000000"
+# Foreground/background
+gtk-color-scheme = "fg_color:#FAFAFA\nbg_color:#242424"
+# Active Text
+gtk-color-scheme = "active_fg:#FAFAFA"
+# Selected foreground/background
+gtk-color-scheme = "selected_fg_color:#ffffff\nselected_bg_color:#424242"
+# Insensitive foreground/background
+gtk-color-scheme = "insensitive_fg_color:#8f8f8f\ninsensitive_bg_color:#161616\nentry_bg:#12161F"
+# Menus
+gtk-color-scheme = "menu_color:#030303"
+# Links
+gtk-color-scheme = "link_color:#4a90d9\nvisited_link_color:#2a76c6"
+# Treeview headers
+gtk-color-scheme = "column_header_color:#BFBFBF\nhover_column_header_color:#ffffff"
+# Window decoration
+gtk-color-scheme = "window_color:#1D1D1D"
+# Tooltips
+gtk-color-scheme = "tooltip_fg_color:#DBDBDB\ntooltip_bg_color:#242424"
+
+# Set GTK settings
+gtk-auto-mnemonics              = 1
+gtk-primary-button-warps-slider = 1
+
+# And hand over the control to the theme files
+include "main.rc"
+include "apps.rc"
+include "hacks.rc"
+include "xfce.rc"

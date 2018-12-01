@@ -2,7 +2,7 @@
 Name=Android-Finalizer
 Comment=Completes remaining steps for the Android Environment
 Exec=/usr/share//finalizer/repo.sh
-Icon=/usr/share/icons/finalizer.svg
+Icon=/usr/share/icons/finalizer.png
 Terminal=true
 Type=Application
 Name[en_US.utf8]=Android.desktop

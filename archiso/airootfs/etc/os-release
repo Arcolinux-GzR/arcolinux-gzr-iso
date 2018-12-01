@@ -1,5 +1,5 @@
-NAME=ArcoLinuxB-xfce
-ID=ArcoLinuxB-xfce
+NAME=ArcoLinux-gzr-xfce
+ID=ArcoLinux-gzr-xfce
 ID_LIKE="arch"
 VERSION_ID=v18.12.4
 ANSI_COLOR="0;36"

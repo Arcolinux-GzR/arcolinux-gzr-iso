@@ -217,7 +217,6 @@ poppler-qt5
 ###########################
 
 #applications
-atom
 catfish
 chromium
 #compton
@@ -243,7 +242,6 @@ numlockx
 pragha
 scrot
 simplescreenrecorder
-termite
 #tint2
 transmission-gtk
 variety
@@ -379,6 +377,7 @@ xapps
 xdg-desktop-portal-gtk
 xfburn
 youtube-dl
+xed
 zenity
 zsh
 zsh-completions
@@ -482,7 +481,6 @@ arcolinux-bin-git
 #arcolinux-bspwm-git
 #arcolinux-common-git
 #arcolinux-config-cinnamon-git
-arcolinux-config-git
 #arcolinux-config-gnome-git
 #arcolinux-config-mate-git
 #arcolinux-config-plasma-git
@@ -516,7 +514,6 @@ arcolinux-rofi-themes-git
 arcolinux-root-git
 arcolinux-slim
 arcolinux-slimlock-themes-git
-arcolinux-termite-themes-git
 #arcolinux-tint2-git
 #arcolinux-tint2-themes-git
 arcolinux-variety-git
@@ -583,10 +580,14 @@ xfce4-whiskermenu-plugin
 xfce4-xkb-plugin
 xfce4-panel-profiles
 
-# GZ Edits
+####################
+#    GZ Edits      #
+####################
+arcolinux-gzr-config-git
 arcolinux-gzr-xfce-thunar-git
 arco-settings-manager
 arco-settings-manager-notifier
+
 
 # Android
 android-tools 

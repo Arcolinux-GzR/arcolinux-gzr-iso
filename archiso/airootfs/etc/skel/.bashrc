@@ -220,4 +220,4 @@ export USE_CCACHE=1
 # Reserved for Android BUILD_TYPES
 # IE.. VALIDUS_BUILD_TYPE=UNOFFICIAL
 
-neofetch --ascii_distro arco_gzr --ascii distro --colors 11 2 11 11 --ascii_colors 15 8 11
+#neofetch

@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=Android-Finalizer
 Comment=Completes remaining steps for the Android Environment
-Exec=/usr/share//finalizer/repo.sh
+Exec=/usr/share/final/repo.sh
 Icon=/usr/share/icons/finalizer.png
 Terminal=true
 Type=Application

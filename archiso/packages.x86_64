@@ -163,7 +163,7 @@ networkmanager-pptp
 networkmanager-vpnc
 networkmanager-dispatcher-ntpd
 openresolv
-samba
+#samba
 wpa_supplicant
 
 #file management
@@ -172,7 +172,7 @@ gvfs-afc
 gvfs-gphoto2
 gvfs-mtp
 gvfs-nfs
-gvfs-smb
+#gvfs-smb
 mtpfs
 thunar
 thunar-archive-plugin
@@ -292,7 +292,7 @@ lightdm
 #gtk2-perl
 #obconf
 #openbox
-#gtk-engine-murrine
+gtk-engine-murrine
 
 #themes
 adapta-gtk-theme
@@ -353,14 +353,14 @@ qt5-styleplugins
 qt5-webkit
 powertop
 reflector
-redshift
+#redshift
 rofi
 rxvt-unicode
 simple-scan
 #shotwell
 speedtest-cli
 timeshift
-tlp
+#tlp
 transmission-cli
 ufw
 gufw
@@ -417,6 +417,7 @@ paper-icon-theme
 papirus-icon-theme-git
 sardi-icons
 surfn-icons-git
+zafiro-icon-theme
 
 #network
 b43-firmware

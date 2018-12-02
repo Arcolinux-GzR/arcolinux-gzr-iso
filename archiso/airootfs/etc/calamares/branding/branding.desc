@@ -1,14 +1,14 @@
 ---
-componentName:  arcolinux
+componentName:  arco-gzr
 
 strings:
-    productName:         ArcoLinuxB
-    shortProductName:    ArcoLinuxB
-    version:             1.0
-    shortVersion:        1.0
-    versionedName:       ArcoLinuxB
-    shortVersionedName:  ArcoLinuxB
-    bootloaderEntryName: ArcoLinuxB
+    productName:         Arco-GzR-xfce
+    shortProductName:    Arco-GzR-xfce
+    version:             3.0.0
+    shortVersion:        3.0.0
+    versionedName:       Arco-GzR-xfce
+    shortVersionedName:  Arco-GzR-xfce
+    bootloaderEntryName: Arco-GzR-xfce
 
 images:
     productLogo:         "squid.png"

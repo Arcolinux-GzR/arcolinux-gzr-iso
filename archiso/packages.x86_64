@@ -585,6 +585,10 @@ xfce4-panel-profiles
 ####################
 arcolinux-gzr-config-git
 arcolinux-gzr-xfce-thunar-git
+
+arcolinux-gzr-system-config-git
+arcolinu-gzr-system-installation-git
+
 arco-settings-manager
 arco-settings-manager-notifier
 

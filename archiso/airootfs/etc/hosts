@@ -3,7 +3,7 @@
 #
 
 #<ip-address>	<hostname.domain.org>	<hostname>
-127.0.0.1 localhost localhost.localdomain localhost4 localhost4.localdomain4 ArcoLinuxB-xfce
-::1 localhost localhost.localdomain localhost6 localhost6.localdomain6 ArcoLinuxB-xfce
+127.0.0.1 localhost localhost.localdomain localhost4 localhost4.localdomain4 Arco-GzR-xfce
+::1 localhost localhost.localdomain localhost6 localhost6.localdomain6 Arco-GzR-xfce
 
 # End of file

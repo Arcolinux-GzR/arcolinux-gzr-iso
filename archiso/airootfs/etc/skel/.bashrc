@@ -13,6 +13,12 @@ if [ -d "$HOME/.bin" ] ;
 	then PATH="$HOME/.bin:$PATH"
 fi
 
+#get fastest mirrors in your neighborhood 
+alias mirror="sudo reflector -f 30 -l 30 --number 10 --verbose --save /etc/pacman.d/mirrorlist"
+alias mirrord="sudo reflector --latest 50 --number 20 --sort delay --save /etc/pacman.d/mirrorlist"
+alias mirrors="sudo reflector --latest 50 --number 20 --sort score --save /etc/pacman.d/mirrorlist"
+alias mirrora="sudo reflector --latest 50 --number 20 --sort age --save /etc/pacman.d/mirrorlist"
+
 #list
 alias ls='ls --color=auto'
 alias la='ls -a'
@@ -216,6 +222,8 @@ export LANG=C
 export JAVA_HOME=/usr/lib/jvm/default
 export PATH=~/bin:$PATH
 export USE_CCACHE=1
+
+export EDITOR=nano
 
 # Reserved for Android BUILD_TYPES
 # IE.. VALIDUS_BUILD_TYPE=UNOFFICIAL

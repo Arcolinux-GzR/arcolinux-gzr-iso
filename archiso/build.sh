@@ -2,11 +2,11 @@
 
 set -e -u
 
-iso_name=arcolinux-gzr-xfce
-iso_label="alxgzr-xfce-v18.12.4-x86_64"
+iso_name=arco-gzr-xfce
+iso_label="arcogzr-xfce-v3.0.0-x86_64"
 iso_publisher="ArcoLinux <http://www.arcolinux.info>"
-iso_application="ArcoLinux-GzR Live/Rescue CD"
-iso_version="v18.12.4"
+iso_application="Arco-GzR Live/Rescue CD"
+iso_version="v3.0.0"
 install_dir=arch
 work_dir=work
 out_dir=out

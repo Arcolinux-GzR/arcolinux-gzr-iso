@@ -517,7 +517,6 @@ arcolinux-slimlock-themes-git
 #arcolinux-tint2-git
 #arcolinux-tint2-themes-git
 arcolinux-variety-git
-arcolinux-wallpapers-git
 arcolinux-xfce4-panel-profiles-git
 
 #xfce4 also for ArcoLinuxB iso builds
@@ -583,15 +582,14 @@ xfce4-panel-profiles
 ####################
 #    GZ Edits      #
 ####################
+arcolinux-calamares-gzr-xfce-git
 arcolinux-gzr-config-git
 arcolinux-gzr-xfce-thunar-git
-
 arcolinux-gzr-system-config-git
-arcolinu-gzr-system-installation-git
-
+arcolinux-gzr-system-installation-git
+arcolinux-gzr-wallpapers-git
 arco-settings-manager
 arco-settings-manager-notifier
-
 
 # Android
 android-tools 
@@ -641,7 +639,6 @@ python-pywal
 
 #Needed for Calamares installer
 calamares
-arcolinuxb-calamares-xfce-git
 ckbcomp
 networkmanager
 upower

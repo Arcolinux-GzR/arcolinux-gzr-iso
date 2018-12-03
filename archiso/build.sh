@@ -3,10 +3,10 @@
 set -e -u
 
 iso_name=arco-gzr-xfce
-iso_label="arcogzr-xfce-v3.0.0-x86_64"
+iso_label="arcogzr-xfce-v3.1.0-x86_64"
 iso_publisher="ArcoLinux <http://www.arcolinux.info>"
 iso_application="Arco-GzR Live/Rescue CD"
-iso_version="v3.0.0"
+iso_version="v3.1.0"
 install_dir=arch
 work_dir=work
 out_dir=out
